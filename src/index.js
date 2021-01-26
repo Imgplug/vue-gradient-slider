@@ -1,1 +1,2 @@
-export { default as GradientPicker } from './GradientPicker.vue';
+import GradientSlider from './GradientSlider.vue'
+export default GradientSlider
