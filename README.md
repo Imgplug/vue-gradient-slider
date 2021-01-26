@@ -1,24 +1,46 @@
-# vue-gradient-picker
+<!-- @format -->
 
-## Project setup
-```
-npm install
-```
+# Vue Gradient Slider
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+<p align="center">
+  <img src="https://thumbs.gfycat.com/ImpassionedOrangeDassierat-size_restricted.gif" width=400>
+</p>
 
-### Compiles and minifies for production
-```
-npm run build
+## Install
+
+```bash
+npm install vue-gradient-slider
 ```
 
-### Lints and fixes files
-```
-npm run lint
+## Usage
+
+```html
+<GradientPicker v-model="colors" @select="selectKnob" />
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```js
+export default {
+  data: () => ({
+    selectedKnob: 0,
+    colors: [
+      {
+        position: 0.12,
+        color: "#FF00AA",
+      },
+      {
+        position: 0.46,
+        color: "#A300FF",
+      },
+      {
+        position: 0.84,
+        color: "#00AAFF",
+      },
+    ],
+  }),
+  methods: {
+    selectKnob(value) {
+      this.selectedKnob = value;
+    },
+  },
+};
+```
