@@ -1,6 +1,6 @@
 {
   "name": "vue-gradient-slider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/vue-gradient-picker.umd.min.js",
   "scripts": {
     "serve": "cd demo && npm run serve",
@@ -9,7 +9,6 @@
     "lint": "vue-cli-service lint",
     "version": "npm run build:bundle && npm publish",
     "postversion": "git push && git push --tags"
-
   },
   "dependencies": {
     "core-js": "^3.6.5",
