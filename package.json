@@ -1,6 +1,6 @@
 {
   "name": "vue-gradient-slider",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/vue-gradient-slider.umd.min.js",
   "scripts": {
     "serve": "cd demo && npm run serve",
