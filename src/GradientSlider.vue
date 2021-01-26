@@ -145,17 +145,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$fullGradient: linear-gradient(
-  to right,
-  hsl(0, 100%, 50%),
-  hsl(60, 100%, 50%),
-  hsl(120, 100%, 50%),
-  hsl(180, 100%, 50%),
-  hsl(240, 100%, 50%),
-  hsl(300, 100%, 50%),
-  hsl(360, 100%, 50%)
-);
-
 .gradient-slider {
   width: 100%;
   height: 20px;
