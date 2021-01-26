@@ -1,7 +1,9 @@
 {
   "name": "vue-gradient-slider",
   "version": "0.0.4",
-  "main": "dist/vue-gradient-slider.umd.min.js",
+  "main": "dist/vue-gradient-slider.umd.js",
+  "module": "dist/vue-gradient-slider.common.js",
+  "unpkg": "dist/vue-gradient-slider.umd.min.js",
   "scripts": {
     "serve": "cd demo && npm run serve",
     "build:bundle": "vue-cli-service build --target lib --name vue-gradient-slider ./src/index.js",
