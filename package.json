@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "cd demo && npm run serve",
     "build:bundle": "vue-cli-service build --target lib --name vue-gradient-picker ./src/index.js",
-    "build:demo": "cd demo && npm run build",
+    "build:demo": "cd demo && npm install && npm run build",
     "lint": "vue-cli-service lint",
     "version": "npm run build:bundle && npm publish",
     "postversion": "git push && git push --tags"
