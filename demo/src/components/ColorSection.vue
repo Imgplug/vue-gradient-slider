@@ -4,7 +4,7 @@
   <div>
     <v-card class="pa-2" outlined tile>
       <h5>Gradient Slider</h5>
-      <GradientPicker v-model="colors" @select="selectKnob"></GradientPicker>
+      <GradientSlider v-model="colors" @select="selectKnob"></GradientSlider>
     </v-card>
     <v-card class="pa-2" outlined tile>
       <h5>Third party color picker</h5>
@@ -21,10 +21,10 @@
 </template>
 
 <script>
-import GradientPicker from "../../../src/GradientPicker";
+import GradientSlider from "../../../src/GradientSlider";
 export default {
   components: {
-    GradientPicker,
+    GradientSlider,
   },
   data: () => ({
     selectedKnob: 0,
