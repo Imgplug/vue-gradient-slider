@@ -10,6 +10,9 @@
         <CodeSection :code="this.code"></CodeSection>
       </v-col>
     </v-row>
+    <v-row justify="center">
+      <p><a href="https://geongeorge.com" target="_blank">geon</a></p>
+    </v-row>
   </v-container>
 </template>
 
