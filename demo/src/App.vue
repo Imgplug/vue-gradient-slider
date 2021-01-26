@@ -10,7 +10,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/Imgplug/vue-gradient-picker"
+        href="https://github.com/Imgplug/vue-gradient-slider"
         target="_blank"
         text
       >
