@@ -10,16 +10,27 @@
 
 ```bash
 npm install vue-gradient-slider
+# or
+yarn add vue-gradient-slider
 ```
+
+## Demo
+
+See [Demo Site](https://vue-gradient-slider.vercel.app/)
 
 ## Usage
 
 ```html
-<GradientPicker v-model="colors" @select="selectKnob" />
+<GradientSlider v-model="colors" @select="selectKnob" />
 ```
 
 ```js
+import GradientSlider from 'vue-gradient-slider'
+
 export default {
+  components: {
+    GradientSlider
+  },
   data: () => ({
     selectedKnob: 0,
     colors: [
